@@ -1,0 +1,17 @@
+h1 {
+    font-weight: 500;
+    font-family: 'Roboto Medium', sans-serif, Arial;
+    padding-left: 20em;
+}
+img {
+    padding-left: 23em;
+}
+figcaption {
+    padding-left: 50em;
+}
+p {
+    font-family:'Roboto Medium', 'Open Sans';
+}
+.links {
+    padding-left: 43em;
+}
