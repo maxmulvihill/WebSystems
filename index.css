@@ -3,6 +3,10 @@ h1 {
     font-family: 'Roboto Medium', sans-serif, Arial;
     padding-left: 20em;
 }
+
+img {
+    padding-left: 23em;
+
 html{
     margin: auto, auto, auto, auto;
 }
@@ -10,6 +14,7 @@ img {
     padding-left: 23em;
     max-width: 700px;
     max-height: 700px;
+
 }
 figcaption {
     padding-left: 50em;
@@ -32,6 +37,8 @@ button:hover{
 .gothenburguni img{
     padding-left: 42em;
 }
+
+
 
 .hoverwrap {
     position: relative;
@@ -57,3 +64,4 @@ button:hover{
 .hoverwrap:hover .hovercap2{
     visibility: visible; opacity: 1;
 }
+
