@@ -3,8 +3,18 @@ h1 {
     font-family: 'Roboto Medium', sans-serif, Arial;
     padding-left: 20em;
 }
+
 img {
     padding-left: 23em;
+
+html{
+    margin: auto, auto, auto, auto;
+}
+img {
+    padding-left: 23em;
+    max-width: 700px;
+    max-height: 700px;
+
 }
 figcaption {
     padding-left: 50em;
@@ -27,3 +37,31 @@ button:hover{
 .gothenburguni img{
     padding-left: 42em;
 }
+
+
+
+.hoverwrap {
+    position: relative;
+}
+.hoverwrap img{
+    width: 50%;
+}
+
+.hovercap2{
+    box-sizing: border-box;
+    width: 700px;
+    padding-left: 15rem;
+    position:absolute;
+    bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 23rem;
+    margin-bottom: 0.2rem;
+}
+
+.hoverwrap:hover .hovercap2{
+    visibility: visible; opacity: 1;
+}
+
