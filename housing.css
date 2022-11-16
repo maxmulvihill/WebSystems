@@ -5,8 +5,9 @@ html{
 }
 h1 {
     font-weight: 500;
-    font-family: 'Roboto Medium', sans-serif, Arial;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 43rem;
+    font-size:3rem;
 }
 img {
     padding-left: 23rem;
@@ -17,7 +18,7 @@ figcaption {
     padding-left: 50rem;
 }
 p{
-    font-family:'Roboto Medium', 'Open Sans';
+    font-family: 'Montserrat', sans-serif;
 }
 
 a:hover{
@@ -88,9 +89,12 @@ ul li{
 }
 ul {
     display: inline-flex;
-    margin-left: 0%;
+    margin-left: -20%;
 }
 .logo img{
     max-width: 5rem;
     max-height: 5rem;
+}
+.current a{
+    color: #19dafa;
 }
