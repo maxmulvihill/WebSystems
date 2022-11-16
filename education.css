@@ -1,17 +1,62 @@
+html{
+    margin: auto, auto, auto, auto;
+}
+.hoverwrap {
+    position: relative;
+}
+.hoverwrap img{
+    width: 50%;
+}
+.hovercap2{
+    box-sizing: border-box;
+    width: 43.75rem;
+    padding-left: 10rem;
+    position:absolute;
+    bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 23rem;
+    margin-bottom: 0.2rem;
+}
+
+a:hover{
+    color:white;
+}
+button:hover{
+    background-color:green;
+}
+
+.links a{
+    text-decoration:none;
+}
+
+
+img {
+    padding-left: 23rem;
+    max-width: 43.75rem;
+    max-height: 43.75rem;
+}
+
+.hoverwrap:hover .hovercap2{
+    visibility: visible; opacity: 1;
+}
+
 h1 {
     font-weight: 500;
     font-family: 'Roboto Medium', sans-serif, Arial;
-    padding-left: 20em;
+    padding-left: 43rem;
 }
 img {
-    padding-left: 23em;
+    padding-left: 23rem;
 }
 figcaption {
-    padding-left: 50em;
+    padding-left: 50rem;
 }
-p {
+p,li {
     font-family:'Roboto Medium', 'Open Sans';
 }
 .links {
-    padding-left: 43em;
+    padding-left: 43rem;
 }
