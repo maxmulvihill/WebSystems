@@ -1,18 +1,17 @@
 h1 {
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     padding-left: 43rem;
     font-size:3rem;
 }
 h2{
     font-weight:300;
-    font-family: 'Open Sans', sans-serif;
-    font-size:8rem;
+    font-family: 'Kanit', sans-serif;
+    font-size:3rem;
 }
 html{
     margin: auto, auto, auto, auto;
-    background-color:rgb(70, 65, 65);
-    color: white;
+    background-image:linear-gradient(to right, skyblue, white);
 }
 img {
     padding-left: 23em;
@@ -21,21 +20,25 @@ img {
 }
 p, footer{
     font-family: 'Montserrat', sans-serif;
-    color:rgb(231, 207, 207);
 }
 .links a{
     text-decoration:none;
-    color:white;
     padding: 1rem;
     display: inline-flex;
     font-family:"Roboto Medium", Arial;
+    color:black;
 }
 
 a:hover{
+    color:black;
+}
+button{
+    background-color: black;
     color:white;
 }
 button:hover{
-    background-color:green;
+    background-color:grey;
+    color:white;
 }
 .gothenburguni img{
     padding-left: 42rem;
@@ -99,4 +102,8 @@ div{
     animation: testing;
     animation-direction:linear;
     animation-duration: 2s;
+}
+
+.links{
+    text-align: right;
 }
