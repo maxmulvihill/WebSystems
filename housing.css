@@ -24,6 +24,7 @@ figcaption {
 p, footer{
     font-family: 'Montserrat', sans-serif;
     color:rgb(231, 207, 207);
+    
 }
 
 a:hover{
@@ -41,6 +42,10 @@ a:hover{
 
 .links a:hover{
     color:blanchedalmond;
+}
+
+.current a{
+    color:lightsteelblue;
 }
 
 .hoverwrap {
@@ -68,7 +73,12 @@ a:hover{
 table{
     font-family:'Roboto Medium', 'Open Sans';
     border:1px solid;
+    
 }
+#housing {
+    animation:original;
+}
+
 #housing th{
     background-color:rgb(116, 101, 101);
     color:white;
@@ -96,6 +106,28 @@ table{
     max-width: 5rem;
     max-height: 5rem;
 }
-.current a{
-    color: #19dafa;
+
+a:visited {
+    color:blueviolet;
 }
+.current a{
+    color:lightsteelblue;
+}
+
+p,#housing{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ 
