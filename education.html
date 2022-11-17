@@ -3,14 +3,25 @@
     <head>
         <meta charset = 'utf-8'>
         <title>Education</title>
+        <script>
+            function toggleTheme() {
+                var theme = document.getElementsByTagName("link")[0];
+            
+                if (theme.getAttribute('href') == 'education.css'){
+                    theme.setAttribute('href', 'education2.css');
+                } else {
+                    theme.setAttribute('href', 'education.css')
+                }
+            }
+        </script>
         <link rel="stylesheet" href="education.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">  
     </head>
     <body>
-        
         <div class = "links">
             <ul>
                 <li class="logo"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pinclipart.com%2Fpicdir%2Fbig%2F352-3523121_new-travel-peeps-travel-agency-logo-png-clipart.png&f=1&nofb=1&ipt=3c00812c5de0c322bb594f90cf092fec9a2056d79c53a4e81cea2f6ad64ea884&ipo=images" alt="Logo"></li>
@@ -63,7 +74,7 @@
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsciencesprings.files.wordpress.com%2F2021%2F04%2Funiversity-of-gothenburg-goteborgs-universitet-campus.jpg&f=1&nofb=1&ipt=dfa12e79ee7824ed94357e239b871366b8ac7af33e9f3b5280438bb03186aaaa&ipo=images" alt="Gothenburg University">
                 <div class="hovercap2">the University of Gothenburg. Credit to sciencesprings.wordpress.com</div>
             </div>
-        
+            <button onclick="toggleTheme()">Switch theme</button>
     </body>
     <footer>© Visit Gothenburg all rights reserved</footer>
 </html>
