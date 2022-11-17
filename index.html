@@ -3,11 +3,23 @@
 <head>
     <meta charset = 'utf-8'>
     <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <script>
+        function toggleTheme() {
+            var theme = document.getElementsByTagName("link")[0];
+        
+            if (theme.getAttribute('href') == 'index.css'){
+                theme.setAttribute('href', 'index2.css');
+            } else {
+                theme.setAttribute('href', 'index.css')
+            }
+        }
+    </script>
+    <link id='pagestyle' rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">  
 </head>
 <body>
     <div class = "links">
@@ -52,7 +64,8 @@
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.travelmag.com%2Fwp-content%2Fuploads%2F2019%2F10%2FGothenburg.jpg&f=1&nofb=1&ipt=c5b022c86918c90143b99680a19fef7f1bedaacc6958438c0c1e56446badb7fc&ipo=images" alt="Gothenburg sky shot">
             <div class="hovercap2">Bird's eye view of Gothenburg. Credit to travelmag.com</div>
         </div>
-        
+        <button onclick="toggleTheme()">Switch theme</button>
+              
 </body>
 <footer>© Visit Gothenburg all rights reserved </footer>
 </html>
