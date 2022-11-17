@@ -1,11 +1,10 @@
 html{
     margin: auto, auto, auto, auto;
-    background-color:rgb(70, 65, 65);
-    color: white;
+    background-image:linear-gradient(to right, skyblue, white);
 }
 h1 {
     font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     padding-left: 43rem;
     font-size:3rem;
 }
@@ -22,19 +21,21 @@ figcaption {
     padding-left: 50rem;
 }
 p, footer{
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(231, 207, 207);
+    font-family: 'Kanit', sans-serif;
 }
 
 a:hover{
     color:white;
 }
 
+.links{
+    text-align: right;
+}
+
 .links a{
     text-decoration:none;
     padding: 1rem;
     display: inline-flex;
-    color:white;
     font-family: "Roboto Medium", Arial;
     
 }
@@ -70,12 +71,12 @@ table{
     border:1px solid;
 }
 #housing th{
-    background-color:rgb(116, 101, 101);
+    background-color:rgb(41, 108, 207);
     color:white;
 }
 
 #housing td{
-    background-color:rgb(136, 122, 122);
+    background-color:rgb(81, 202, 218);
 }
 #housing td:hover{
     background-color:rgb(80, 70, 70);
@@ -83,7 +84,7 @@ table{
 }
 
 .housing a{
-    color:rgb(231, 207, 207);
+    color: black;
 }
 
 .links ul li{
@@ -112,3 +113,7 @@ div{
     animation-duration: 2s;
 }
 
+button {
+    background-color:black;
+    color:white;
+}
