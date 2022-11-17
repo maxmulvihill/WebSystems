@@ -1,29 +1,22 @@
 h1 {
     font-weight: 500;
     font-family: 'Roboto Medium', sans-serif, Arial;
-    padding-left: 20em;
+    padding-left: 20rem;
 }
-
-img {
-    padding-left: 23em;
-
 html{
     margin: auto, auto, auto, auto;
 }
 img {
     padding-left: 23em;
-    max-width: 700px;
-    max-height: 700px;
-
+    max-width: 43.75rem;
+    max-height: 43.75rem;
 }
-figcaption {
-    padding-left: 50em;
-}
-p {
+p,li{
     font-family:'Roboto Medium', 'Open Sans';
 }
+
 .links {
-    padding-left: 43em;
+    padding-left: 43rem;
 }
 .links a{
     text-decoration:none;
@@ -35,10 +28,8 @@ button:hover{
     background-color:green;
 }
 .gothenburguni img{
-    padding-left: 42em;
+    padding-left: 42rem;
 }
-
-
 
 .hoverwrap {
     position: relative;
@@ -49,7 +40,7 @@ button:hover{
 
 .hovercap2{
     box-sizing: border-box;
-    width: 700px;
+    width: 43.75rem;
     padding-left: 15rem;
     position:absolute;
     bottom: 0; left: 0;
@@ -64,4 +55,21 @@ button:hover{
 .hoverwrap:hover .hovercap2{
     visibility: visible; opacity: 1;
 }
+.current a{
+    color: #19dafa;
+}
+.housing a{
+    color:rgb(231, 207, 207);
+}
 
+ul li{
+    list-style:none;
+}
+ul {
+    display: inline-flex;
+    margin-left: -20%;
+}
+.logo img{
+    max-width: 5rem;
+    max-height: 5rem;
+}
