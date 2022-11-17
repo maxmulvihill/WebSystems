@@ -27,8 +27,12 @@ a:hover{
     color:Brown;
     text-decoration:underline;
 }
+button {
+    background-color:black;
+    color:white;
+}
 button:hover{
-    background-color:green;
+    background-color:grey;
     color:white;
     text-decoration:underline;
 }
@@ -55,14 +59,14 @@ img {
 
 h1 {
     font-weight: 100;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     padding-left: 43rem;
     font-size:3rem;
     margin-top:0rem;
 }
 h2 {
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size:2rem;
     color: black;
 }
@@ -128,6 +132,9 @@ a:visited {
     color:greenyellow;
     text-decoration:underline;
     text-decoration-color:black;
+}
+a:active{
+    color:red;
 }
 
 @keyframes testing {
