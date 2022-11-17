@@ -1,0 +1,124 @@
+h1 {
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 43rem;
+    font-size:3rem;
+    margin-top: 0rem;
+}
+h2 {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size:2rem;
+}
+html{
+    margin: auto, auto, auto, auto;
+    background-color:rgb(70, 65, 65);
+    color: white;
+}
+.main img {
+    padding-left: 23rem;
+    max-width: 43.75rem;
+    max-height: 43.75rem;
+}
+
+p, li{
+    font-family:'Roboto Medium', 'Open Sans';
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(231, 207, 207);
+}
+a:hover{
+    color:white;
+}
+button:hover{
+    background-color:green;
+}
+
+.links a{
+    text-decoration:none;
+    padding: 1rem;
+    display: inline-flex;
+    color:white;
+    font-family: "Roboto Medium", Arial;
+}
+
+.hoverwrap {
+    position: relative;
+}
+.hoverwrap img{
+    width: 50%;
+}
+
+.hovercap{
+    box-sizing: border-box;
+    width: 100px;
+    padding-left: 29rem;
+    position:absolute;
+    bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 23rem;
+    margin-bottom: .5rem;
+}
+
+.hoverwrap:hover .hovercap{
+    visibility: visible; opacity: 1;
+}
+
+
+.hovercap2{
+    box-sizing: border-box;
+    width: 700px;
+    padding-left: 15rem;
+    position:absolute;
+    bottom: 0; left: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    margin-left: 23rem;
+    margin-bottom: 0.2rem;
+}
+
+.hoverwrap:hover .hovercap2{
+    visibility: visible; opacity: 1;
+}
+
+.current a{
+    color: #19dafa;
+}
+.links ul li{
+    list-style:none;
+}
+.links ul {
+    display: inline-flex;
+}
+.logo img{
+    max-width: 5rem;
+    max-height: 5rem;
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(231, 207, 207);
+}
+
+.main a{
+    color:white;
+}
+em {
+    font-weight:bold;
+}
+
+@keyframes testing {
+    0% {left: 0px;}
+    50%{left: 200px;}
+    100%{left: 400px;}
+    }
+    
+div{
+    animation: testing;
+    animation-direction:linear;
+    animation-duration: 2s;
+}
