@@ -3,11 +3,23 @@
     <head>
         <meta charset = 'utf-8'>
         <title>Housing</title>
+        <script>
+            function toggleTheme() {
+                var theme = document.getElementsByTagName("link")[0];
+            
+                if (theme.getAttribute('href') == 'housing.css'){
+                    theme.setAttribute('href', 'housing2.css');
+                } else {
+                    theme.setAttribute('href', 'housing.css')
+                }
+            }
+        </script>
         <link rel="stylesheet" href="housing.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">  
     </head>
     <body>
         <div class = "links">
@@ -59,5 +71,6 @@
             <div class="hovercap2">Cycle path next to a lake close to Gothenburg. Credit to thenaturaladventure.com</div> 
          </div>
         </body>
+        <button onclick="toggleTheme()">Switch theme</button>
         <footer>© Visit Gothenburg all rights reserved</footer>
 </html>
