@@ -1,22 +1,7 @@
-h1 {
-    font-weight: 500;
-    font-family: 'Roboto Medium', sans-serif, Arial;
-    padding-left: 20em;
-}
-img {
-    padding-left: 23em;
-}
-figcaption {
-    padding-left: 50em;
-}
-p {
-    font-family:'Roboto Medium', 'Open Sans';
-}
-.links {
-    padding-left: 43em;
-=======
 html{
     margin: auto, auto, auto, auto;
+    background-color:rgb(70, 65, 65);
+    color: white;
 }
 .hoverwrap {
     position: relative;
@@ -47,9 +32,14 @@ button:hover{
 
 .links a{
     text-decoration:none;
+    color:white;
+    padding: 1rem;
+    display: inline-flex;
+    font-family:"Roboto Medium", Arial;
 }
-
-
+.current a{
+    color: #19dafa;
+}
 img {
     padding-left: 23rem;
     max-width: 43.75rem;
@@ -62,8 +52,15 @@ img {
 
 h1 {
     font-weight: 500;
-    font-family: 'Roboto Medium', sans-serif, Arial;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 43rem;
+    font-size:3rem;
+    margin-top:0rem;
+}
+h2 {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size:2rem;
 }
 img {
     padding-left: 23rem;
@@ -71,9 +68,41 @@ img {
 figcaption {
     padding-left: 50rem;
 }
-p,li {
+p{
     font-family:'Roboto Medium', 'Open Sans';
 }
-.links {
-    padding-left: 43rem;
+
+ul li{
+    list-style:none;
+    padding: .5rem;
+}
+.housing a{
+    color:rgb(231, 207, 207);
+}
+
+.links ul li{
+    list-style:none;
+}
+.links ul {
+    display: inline-flex;
+}
+.logo img{
+    max-width: 5rem;
+    max-height: 5rem;
+    padding:0rem;
+}
+.logo {
+    padding:0rem;
+}
+
+.links li {
+    color:white;
+}
+
+p, footer{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(231, 207, 207);
+}
+em {
+    font-weight: bold;
 }
