@@ -3,15 +3,28 @@
     <head>
         <meta charset = 'utf-8'>
         <title>Recreation</title>
+        <script>
+            function toggleTheme() {
+                var theme = document.getElementsByTagName("link")[0];
+            
+                if (theme.getAttribute('href') == 'recreation.css'){
+                    theme.setAttribute('href', 'recreation2.css');
+                } else {
+                    theme.setAttribute('href', 'recreation.css');
+                }
+            }
+        </script>
         <link rel="stylesheet" href="recreation.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">   
     </head>
     <body>
         <div class = "links">
             <ul>
+                <div></div>
                 <li class="logo"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pinclipart.com%2Fpicdir%2Fbig%2F352-3523121_new-travel-peeps-travel-agency-logo-png-clipart.png&f=1&nofb=1&ipt=3c00812c5de0c322bb594f90cf092fec9a2056d79c53a4e81cea2f6ad64ea884&ipo=images" alt="Logo"></li>
                 <li><a href = "https://maxmulvihill.github.io/WebSystems/index.html" > Home</a></li>
                 <li class="current"><a href = "https://maxmulvihill.github.io/WebSystems/recreation.html">Recreation</a></li>
@@ -55,7 +68,7 @@
             <div class="hovercap2">Gothenburg's art museum. Credit to flickr.com</div>
         </div>
     </div>
+    <button onclick="toggleTheme()">Switch theme</button>
     </body>    
     <footer>© Visit Gothenburg all rights reserved </footer>  
 </html>
-
