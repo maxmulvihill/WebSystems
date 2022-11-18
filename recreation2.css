@@ -36,7 +36,7 @@ button:hover{
     padding: 1rem;
     display: inline-flex;
     color:black;
-    font-family: "Roboto Medium", Arial;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hoverwrap {
@@ -129,4 +129,8 @@ button {
 button:hover{
     background-color:gray;
     color:white;
+}
+
+.links a:hover{
+    color:red;
 }
