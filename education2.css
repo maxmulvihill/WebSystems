@@ -42,7 +42,7 @@ button:hover{
     color:white;
     padding: 1rem;
     display: inline-flex;
-    font-family:"Roboto Medium", Arial;
+    font-family:'Roboto', sans-serif;
 }
 .current a{
     color: #19dafa;
@@ -147,4 +147,8 @@ div{
     animation: testing;
     animation-direction:linear;
     animation-duration: 2s;
+}
+
+.links a:hover{
+    color:red;
 }
